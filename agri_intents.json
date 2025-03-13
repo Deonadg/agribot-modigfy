@@ -1,0 +1,103 @@
+﻿{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi", "Hey", "Hello", "Good morning", "Good evening", "Hi there", "Whats up",
+                "How are you", "Is anyone there?", "Good day", "Greetings"
+            ],
+            "responses": [
+                "Hello! I'm your personal agricultural expert. How can I assist you with your farming needs today?",
+                "Hi there! I'm here to provide expert farming advice tailored to your needs. What would you like to discuss?",
+                "Greetings! As your agricultural advisor, I'm ready to help you with any farming questions. What's on your mind?"
+            ]
+        },
+        {
+            "tag": "soil_analysis",
+            "patterns": [
+                "How do I test my soil", "What is soil pH", "soil testing", "soil analysis",
+                "check soil quality", "soil nutrients", "soil composition", "soil fertility"
+            ],
+            "responses": [
+                "Let me help you with soil testing. First, we need to: 1) Collect soil samples from different areas 2) Check pH levels 3) Analyze nutrient content. Would you like me to explain any of these steps in detail?",
+                "For accurate soil analysis, I recommend: 1) Testing pH levels 2) Checking NPK ratios 3) Measuring organic matter content. Which aspect would you like to know more about?",
+                "Based on my experience, proper soil testing involves: 1) Sample collection 2) Laboratory analysis 3) Interpretation of results. I can guide you through each step - which interests you most?"
+            ]
+        },
+        {
+            "tag": "crop_planning",
+            "patterns": [
+                "What should I plant now", "best crops for this season", "crop planning",
+                "seasonal crops", "planting calendar", "when to plant", "crop schedule"
+            ],
+            "responses": [
+                "To help you plan your crops effectively, I need to know: 1) Your location/climate zone 2) Available land size 3) Soil type 4) Water availability. Could you share these details?",
+                "Let's create a personalized planting calendar. Tell me about: 1) Your local climate 2) Growing season length 3) Previous crops grown. This will help me recommend the best options for you.",
+                "For optimal crop planning, consider: 1) Local weather patterns 2) Market demand 3) Resource availability. Which factor would you like to discuss first?"
+            ]
+        },
+        {
+            "tag": "pest_management",
+            "patterns": [
+                "pest control", "insect problems", "how to control pests", "natural pesticides",
+                "organic pest control", "pest prevention", "crop diseases", "plant protection"
+            ],
+            "responses": [
+                "I understand pest problems can be concerning. Let's develop a customized IPM strategy: 1) Identify specific pests 2) Assess damage levels 3) Choose control methods. What pests are you dealing with?",
+                "For sustainable pest management, I recommend: 1) Prevention through crop rotation 2) Biological controls 3) Targeted treatments. Would you like details about any of these approaches?",
+                "Based on my expertise, effective pest control starts with: 1) Regular monitoring 2) Natural predators 3) Cultural practices. Which aspect would you like me to elaborate on?"
+            ]
+        },
+        {
+            "tag": "irrigation",
+            "patterns": [
+                "water management", "irrigation system", "watering schedule", "drip irrigation",
+                "water conservation", "irrigation methods", "when to water", "water efficiency"
+            ],
+            "responses": [
+                "Let's design an efficient irrigation plan for your farm. I'll need to know: 1) Crop types 2) Soil drainage 3) Water source 4) Climate conditions. Can you share these details?",
+                "For optimal water management, I suggest: 1) Soil moisture monitoring 2) Efficient irrigation systems 3) Water conservation techniques. Which area interests you most?",
+                "Based on my experience, successful irrigation depends on: 1) Timing 2) Method 3) Water quality. I can help you optimize each aspect - where would you like to start?"
+            ]
+        },
+        {
+            "tag": "organic_farming",
+            "patterns": [
+                "organic methods", "natural farming", "chemical free farming", "organic certification",
+                "organic practices", "sustainable farming", "eco friendly farming"
+            ],
+            "responses": [
+                "I specialize in organic farming transitions. Key areas include: 1) Soil building 2) Natural pest control 3) Crop rotation 4) Certification requirements. Which aspect would you like to explore?",
+                "For successful organic farming, let's focus on: 1) Building soil health 2) Biodiversity 3) Natural inputs 4) Market opportunities. What's your primary interest?",
+                "As an organic farming expert, I recommend starting with: 1) Soil improvement 2) Beneficial insects 3) Cover crops. Would you like detailed guidance on any of these?"
+            ]
+        },
+        {
+            "tag": "weather_advice",
+            "patterns": [
+                "What is the best time to plant crops?",
+                "How does weather affect farming?",
+                "Will it rain this week?",
+                "Can you provide weather updates?"
+            ],
+            "responses": [
+                "Weather conditions impact crop growth. Do you need advice on irrigation planning?",
+                "The best time to plant crops depends on temperature and rainfall. Would you like location-based insights?",
+                "I currently do not have real-time weather data, but you can check weather forecasts at [weather.com](https://weather.com)."
+            ]
+        },
+        
+        {
+            "tag": "market_advice",
+            "patterns": [
+                "selling crops", "market prices", "best time to sell", "crop marketing",
+                "farm business", "agricultural markets", "crop prices", "farm income"
+            ],
+            "responses": [
+                "Let me help you maximize your farm income. We should consider: 1) Current market trends 2) Storage options 3) Value-added opportunities. Which aspect would you like to discuss?",
+                "For optimal market returns, I suggest analyzing: 1) Local demand 2) Price trends 3) Distribution channels. Would you like specific insights about any of these?",
+                "Based on market analysis, I can help you with: 1) Price optimization 2) Buyer connections 3) Value chain development. What's your primary marketing concern?"
+            ]
+        }
+    ]
+}
